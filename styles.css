@@ -15,6 +15,7 @@ nav {
 
 nav ul {
     list-style: none;
+    padding: 0;
 }
 
 nav ul li {
@@ -25,9 +26,57 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #fff;
+    font-size: 1.2rem;
 }
 
-/* Style other sections as needed */
-/* Example: #about, #newsletter, #subscribe, #donate */
+/* Styling for sections */
+section {
+    padding: 2rem;
+    margin: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-/* Responsive adjustments as needed */
+section h1 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+section p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Specific styles for the newsletter section */
+#newsletter {
+    background-color: #f9f9f9;
+}
+
+/* Specific styles for the subscribe section */
+#subscribe {
+    background-color: #e9f5e9;
+}
+
+/* Specific styles for the donate section */
+#donate {
+    background-color: #fdfd96;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    nav ul li:last-child {
+        margin-bottom: 0;
+    }
+    
+    section {
+        margin: 0.5rem;
+        padding: 1rem;
+    }
+}
