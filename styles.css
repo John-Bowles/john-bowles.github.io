@@ -1,0 +1,166 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #232323; /* Grey Black */
+    background-color: #f3eee8; /* Spaceship White */
+}
+
+/* Basic styling for the navigation bar */
+nav {
+    background-color: #ea692a; /* Orange */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+/* Styling for the header */
+header {
+    background: #a8e98c; /* Action Color Green */
+    color: #232323; /* Grey Black */
+    text-align: center;
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+/* Styling for sections */
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text in sections */
+}
+
+section h2 {
+    color: #ea692a; /* Orange */
+    margin-bottom: 1rem;
+}
+
+section p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Specific section colors */
+#newsletter {
+    background-color: #fff0bb; /* Yellow White */
+}
+
+#subscribe {
+    background-color: #fff;
+}
+
+#donate {
+    background-color: #f3eee8; /* Spaceship White */
+}
+
+/* Styling for forms */
+form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+    align-items: center; /* Center form elements horizontally */
+    gap: 0.5rem;
+}
+
+form input[type="email"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+    max-width: 400px; /* Prevent the input from becoming too wide */
+}
+
+form button {
+    padding: 0.5rem 1rem;
+    border: none;
+    color: #fff;
+    background-color: #ea692a; /* Orange */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #d85e23; /* Darker Orange */
+}
+
+/* Styling for links */
+a {
+    color: #ea692a; /* Orange */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #d85e23; /* Darker Orange */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ea692a; /* Orange */
+    color: #fff;
+    margin-top: 2rem;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    nav ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    header {
+        padding: 2rem 1rem;
+    }
+
+    .btn-primary, .btn-secondary {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+}
