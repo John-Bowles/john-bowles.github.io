@@ -11,6 +11,7 @@ header {
     color: #fff;
     padding: 1rem;
     text-align: center;
+    border-radius: 0 0 10px 10px; /* Rounded bottom corners */
 }
 
 header h1 {
@@ -36,7 +37,7 @@ section {
     padding: 2rem;
     margin: 1rem;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 10px; /* Rounded corners for sections */
 }
 
 section h2 {
@@ -51,4 +52,5 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    border-radius: 10px 10px 0 0; /* Rounded top corners */
 }
